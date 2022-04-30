@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Install powerkit') {
       steps {
-        bat 'bat \'$ sfdx plugins:install sfpowerkit\''
+        sh 'bat \'$ sfdx plugins:install sfpowerkit\''
       }
     }
 
